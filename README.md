@@ -12,7 +12,7 @@ El repositorio tiene tres .ipynb: "Pipeline de procesamiento", "EDA" y "Segmenta
 * **Pipeline de procesamiento:**
 En esta sección del repositorio, se encuentra el código responsable de evaluar la calidad de los datos y realizar las funciones de limpieza y transformación necesarias. El resultado de este proceso es un archivo CSV limpio y listo para el análisis posterior.
 
-* **EDA (Exploratory Data Analysis):**
+* **EDA (Exploratory Data Analysis):** <br>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1osS1xgpETOeTlQ_pA9uIUpPO2HX0rVeu?usp=sharing)
 
 Análisis estadístico descriptivo de las variables. Se agrupan las transacciones por grupos de países, específicamente, Reino Unido y los demás países. Esta decisión se tomó debido a que el 99.8 % de las transacciones ocurrieron en el Reino Unido, lo que generaba un desbalance en los datos. 
@@ -21,7 +21,7 @@ Análisis estadístico descriptivo de las variables. Se agrupan las transaccione
 Se analizan patrones transaccionales temporales y de usuario por grupo de países. Para este análisis se utiliza Python y la librería plotly para generar gráficas interactivas. Se proporciona el enlace a Google Colab para visualizar las gráficas en línea, y se sugiere descargar el archivo para ejecutarlo localmente con el archivo requirements.txt para instalar las dependencias necesarias
 
 
-* **Segmentación:**
+* **Segmentación:**<br>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1htzrmp43CKEDCQG7m_bWXmC7UFZ-mtSW#scrollTo=CeYw9awv4lji)
 
 En esta sección, se proponen dos técnicas complementarias de segmentación. En primera instancia, se aplica una agrupación RFM para calcular el score de cada cliente en función de su recencia, frecuencia y valor monetario. Luego, se utiliza el algoritmo K-means para realizar la segmentación basada en los scores calculados anteriormente. Para determinar el número óptimo de clústeres (K), se evalúan los resultados utilizando el coeficiente de la silueta y la curva del codo.
